@@ -1,0 +1,33 @@
+name: Bug Report
+description: Reportar un error
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador y versión
+      placeholder: "Chrome 126, Firefox 128..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. Abre ...
+        2. Haz clic en ...
+        3. Observa el error ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Consola / logs
+      render: shell
