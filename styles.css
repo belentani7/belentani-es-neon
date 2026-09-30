@@ -2,7 +2,7 @@
   --void: #000000;
   --blood: #2a0006;
   --leather: #7a0f1e;
-  --neon: #ff1a3c;
+  --neon: #ff073a; /* canónico neoglass */
   --glow: #ff5c75;
   --frost: #f6e8eb;
   --frost-dim: rgba(246, 232, 235, 0.72);
@@ -30,6 +30,13 @@
 
   --gutter: clamp(16px, 4vw, 48px);
   --measure: 62ch;
+
+  /* Puente NEOGLASS — hereda del sistema compartido */
+  --ng-black: #000000;
+  --ng-red: #ff073a;
+  --ng-gold: #d4af37;
+  --ng-cyan: #4de8e0;
+  --ng-pulse: 4.32s;
 }
 
 *,
